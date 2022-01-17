@@ -3,7 +3,7 @@ package test3;
 /*
  * 날짜 : 2022/01/12
  * 이름 : 홍길동
- * 내용 : 클래스 연습문제
+ * 내용 : 정적변수 연습문제
  */
 class Car{
 	private String brand;

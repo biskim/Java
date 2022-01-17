@@ -1,0 +1,16 @@
+package ch08;
+
+public class SuperEx2 {
+
+}
+
+class Parent2{
+	
+	String name;
+	
+	Parent2(String name){
+		this.name;
+	}
+}
+
+class Child2 

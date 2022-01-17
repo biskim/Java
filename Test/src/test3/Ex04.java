@@ -5,41 +5,42 @@ package test3;
  * 이름 : 김병현
  * 내용 : 클래스 연습문제
  */
-class Car{
-	private String brand;
-	private String name;
-	private int price;
+class Student {
+	static int studentId;
+	private String studentName;
+	private String major;
+	private int grade;
 	
-	public Car(String brand, String name, int price) {
-		this.brand = brand;
-		this.name = name;
-		this.price = price;
+	public Student(String studentName, String major, int grade) {
+		this.studentId++;
+		this.studentName = studentName;
+		this.major = major;
+		this.grade = grade;
 	}
 	
-	public void drive() {
-		System.out.println(name+" 운행 중...");
+	public void studentInfo() {
+		System.out.println("======================");
+		System.out.println("학번 : "+studentId);
+		System.out.println("이름 : "+studentName);
+		System.out.println("전공 : "+major);
+		System.out.println("학년 : "+grade);
+		System.out.println("----------------------");
+		
 	}
-	
-	public void info() {
-		System.out.println("브랜드 : "+brand);
-		System.out.println("차량명 : "+name);
-		System.out.println("가   격 : "+price);
-	}	
 }
 
-public class Ex04 {
+public class Ex04{
 	public static void main(String[] args) {
-
-		Car sonata = null;
-		Car bmw    = null;
 		
-		sonata = new Car("현대", "소나타", 3000);
-		bmw    = new Car("BMW", "520d", 5000);
+		Student.studentId = 20201000;
 		
-		sonata.drive();		
-		sonata.info();
+		Student kim = new Student("김유신", "국문과", 1);
+				kim.studentInfo();
 		
-		bmw.drive();
-		bmw.info();
-	}	
+		Student lee = new Student("이순신", "경제학과", 1);
+		lee.studentInfo();
+		
+		Student lim = new Student("임꺽정", "경영학과", 1);
+		lee.studentInfo();
+	}
 }
