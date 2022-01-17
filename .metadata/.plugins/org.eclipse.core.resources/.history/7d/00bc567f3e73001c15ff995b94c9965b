@@ -1,0 +1,66 @@
+package ch09;
+/*
+ * 내용 : 자바 String 내장 클래스 실습 교재 p 302
+ */
+
+public class Sub2_StringTest {
+	
+	public static void main(String[] args) {
+		
+		// 문자열 비교
+		String str1 = "hello";
+		String str2 = new String ("hello"); //2개는 같다 원래 2번처럼 해야되지만 생략
+		
+				if(str1 == str2) {
+					System.out.println("str1 찹조값과 str2 찹조값는 같다.");
+				}else {
+					System.out.println("str1 찹조값과 str2 찹조값는 다르다.");
+				}
+				
+				if(str1.equals(str2)) {
+					System.out.println("str1 찹조값과 str2 찹조값는 같다.");
+				}else {
+						System.out.println("str1 찹조값과 str2 찹조값는 다르다.");
+
+					}
+
+				
+		
+				// 문자열 길이
+				String hello = "hello korea";
+				System.out.println("문자열 hello 길이 : " +hello.length());
+	
+	
+
+
+	
+		// 문자열 추출
+              System.out.println("문자열 hello 길이 : "+hello.charAt(0) );
+              System.out.println("문자열 hello 길이 : "+hello.charAt(6) );
+		// 문자열 자르기
+              System.out.println("문자열 hello 1~6까지 자르기 : "+hello.substring(0, 5));
+              System.out.println("문자열 hello 7~마지막까지 자르기 : "+hello.substring(6));
+		// 문자열 인덱스
+              System.out.println("문자열 hello 1~6까지 자르기 : "+hello.indexOf("e"));
+              System.out.println("문자열 hello 1~6까지 자르기 : "+hello.indexOf("e"));
+				
+		// 문자열 교체
+				System.out.println("문자열 'korea'를 'busan'으로 교체: "+hello.replace("korea", "busan"));
+		// 문자열 변환
+				int var1 = 1;
+				double var2 = 2.13;
+				boolean var3 = true;
+				
+				String s1 = String.valueOf(var1);
+				String s2 = String.valueOf(var2);;
+				String s3 = ""+var3
+						
+			    System.out.println("s1 : "+s1);
+				System.out.println("s2 : "+s2);
+				System.out.println("s3 : "+s3);
+		
+	}
+}
+	
+
+

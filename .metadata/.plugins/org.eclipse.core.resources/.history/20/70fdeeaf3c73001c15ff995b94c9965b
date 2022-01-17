@@ -1,0 +1,8 @@
+package Ch7_study;
+
+public interface Socket {
+	
+	public void switchOn();
+	public void switchOff();
+
+}

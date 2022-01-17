@@ -1,0 +1,8 @@
+package test4;
+/*
+ * Integer, List<Integer>, size();, get(i);
+ *
+ */
+public class Ex07 {
+
+}

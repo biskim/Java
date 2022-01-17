@@ -1,0 +1,11 @@
+package chapter07.test;
+
+public class PackageEx {
+	
+	public static void main(String[] args) {
+		
+		TestPackage test = new TestPackage();
+		test.method();
+
+}
+}

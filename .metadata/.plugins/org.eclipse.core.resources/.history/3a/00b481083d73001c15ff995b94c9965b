@@ -1,0 +1,41 @@
+package ch07;
+
+public class RemoteSamsung  implements RemoteControl {
+
+	@Override
+	public void poweron("Samsung powerOn...") {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void poweroff("Samsung powerOff...") {
+		
+		
+	}
+
+	@Override
+	public void chUp("Samsung chUp...") {
+	
+		
+	}
+
+	@Override
+	public void chDown"(Samsung chDown...") {
+	
+		
+	}
+
+	@Override
+	public void soundUp("Samsung soundUp...") {
+	
+		
+	}
+
+	@Override
+	public void soundDown("Samsung soundDown...") {
+		
+		
+	}
+
+}

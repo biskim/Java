@@ -1,0 +1,34 @@
+package ch11;
+
+import java.io.FileNotFoundException;
+
+/*
+ * 날짜 : 2022/01/12
+ * 이름 : 김병현
+ * 내용 : 자바 파일 입출력 실습 교재 p496
+ */
+public class Sub1_FileIOTest {
+	
+	public static void main(String[] args) {
+		String Path1 = "C:\\Users\\bigdata\\Desktop\\Test1.txt";
+		String Path2 = "C:\\Users\\bigdata\\Desktop\\Test2.txt";
+		
+		int value = 0 ;
+		 while(true) {
+			
+			 value = fis.read();
+		 }
+		
+		try { 
+			//파일과 스트림 연결
+		
+		 FileInputStream  fis = new FileInputStream(Path1);
+		 FileOutputStream fio = new FileOutputStream(Path2);
+	
+		}catch(FileNotFoundException e) {
+			e.printStackTrace();
+		}
+	
+
+}
+}

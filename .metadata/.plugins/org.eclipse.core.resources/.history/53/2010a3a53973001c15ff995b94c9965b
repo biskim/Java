@@ -1,0 +1,23 @@
+/*
+ * 날짜 : 2021/12/31
+ * 이름 : 김병현
+ * 내용 : 참조 자료형 실습 p42
+ */
+package ch2_Variable;
+
+public class String_Ex {
+	public static void main(String[] args) {
+		String Name;
+		Name = "홍길동";
+		
+		String Name2 = "홍길동";
+	    String Name3 = null ; 
+	    String Name4 = " ";
+	    
+	    System.out.println("name2="+Name2);
+	    System.out.println("name3="+Name3);
+	    System.out.println("name4="+Name4);
+		
+	}
+
+}

@@ -1,0 +1,19 @@
+package ch07;
+
+public interface RemoteControl {
+	
+	// 추상매서드
+	
+	public abstract void poweron(); //abstract는 생략가능
+	public void poweroff(); 
+	
+	public void chUp(); 
+	public void chDown(); 
+	
+	public void soundUp(); 
+	public void soundDown(); 
+	
+	
+	
+
+}

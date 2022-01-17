@@ -1,0 +1,16 @@
+package ch11;
+/*
+ * 날짜 : 2022/01/12
+ * 이름 : 김병현
+ * 내용 : 자바 파일 입출력 실습 교재 p496
+ */
+public class Sub1_FileIOTest {
+	
+	public static void main(String[] args) {
+		String Path1 = "C:\\Users\\bigdata\\DesktopTest1.txt";
+		String Path2 = "C:\\Users\\bigdata\\DesktopTest1.txt";
+		
+	}
+	
+
+}

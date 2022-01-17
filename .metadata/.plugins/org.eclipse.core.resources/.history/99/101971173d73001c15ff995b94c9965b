@@ -1,0 +1,42 @@
+package ch07;
+
+public class RemoteLG implements RemoteControl { //implements입력하고 제목 커서 대고있으면 나옴 오버라이드
+
+	@Override
+	public void poweron() {
+		System.out.println("LG powerOn...");
+		
+		
+	}
+
+	@Override
+	public void poweroff("LG powerOff...") {
+		
+		
+	}
+
+	@Override
+	public void chUp("LG chUp...") {
+		
+		
+	}
+
+	@Override
+	public void chDown("LG chDown...") {
+		
+		
+	}
+
+	@Override
+	public void soundUp("LG soundUp...") {
+		
+		
+	}
+
+	@Override
+	public void soundDown("LG soundDown...") {
+		
+		
+	}
+
+}

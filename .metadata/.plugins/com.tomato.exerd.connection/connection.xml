@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+  <connection>
+    <productId>com.tomato.db.mysql</productId>
+    <productName>MySQL 5.1 ~ 5.8</productName>
+    <name>수업DB</name>
+    <driverJar>C:\Users\user\Desktop\WorkSpace\Java\Study\lib\mysql-connector-java-5.1.49.jar</driverJar>
+    <driverClass>com.mysql.jdbc.Driver</driverClass>
+    <url>jdbc:mysql://54.180.160.240:3306/kimbhun123?characterEncoding=utf8</url>
+    <properties>
+      <password>1234</password>
+      <databaseName>kimbhun123</databaseName>
+      <port>3306</port>
+      <host>54.180.160.240</host>
+      <characterEncoding>utf8</characterEncoding>
+      <user>kimbhun123</user>
+    </properties>
+    <extendedProperties />
+  </connection>
+</database>
+
