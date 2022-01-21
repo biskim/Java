@@ -13,16 +13,20 @@ public class Ex2884 {
 		
 		sc.close();
 		
-		if (M>=45) {
-		}else if (M<45) {
-			System.out.println(H+""+(M-45+60));
-		}else if (H==0) {
-			System.out.println();
-			
+		if (M < 45) {
+			H--;
+			M = 60 - (45 - M);
+			if (H < 0) {
+				H=23;
+			}
+			System.out.println(H + " " + M);
 		}
-		
-		
-	
-	}System.out.print((H-1) + (M-45))l
+		else {
+			M = M - 45;
+			
+			System.out.print(H + " " + M);
+		}
+			
 
+	}
 }
