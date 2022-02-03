@@ -5,7 +5,7 @@ public class Book {
 		private String bookName;
 		private String author;
 		
-		public Book() {} //<=default 생성자 어디다 씀?
+		public Book() {} //<=default 생성자?
 		
 		public Book(String bookName, String author) {
 			this.bookName = bookName;
@@ -13,7 +13,7 @@ public class Book {
 		}
 		
 		public String getBookName() { // <-- 겟터 세터 없어도 실행됨
-                                       //사용처를 모름			
+                                       //사용처			
 			return bookName;
 		}
 		public void setBookName(String bookName) {
